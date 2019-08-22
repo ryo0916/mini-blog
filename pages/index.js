@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Test from '../static/articles/test.md'
+import { Button } from 'rebass'
+
 
 const Index = () => (
   <div>
@@ -8,6 +10,7 @@ const Index = () => (
       <a>To about page</a>
     </Link>
     <Test />
+    <Button bg='red' color='black' mr={2}>Beep</Button>
   </div>
 );
 
