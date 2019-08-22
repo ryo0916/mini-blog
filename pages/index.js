@@ -1,16 +1,15 @@
 import Link from 'next/link';
 import Test from '../static/articles/test.md'
-import { Button } from 'rebass'
+import { Button, Card } from 'rebass'
+import articles from '../data/listArticles' 
 
+console.log(articles);
 
 const Index = () => (
   <div>
-    <p>Hello Next.js</p>
-    <Link href="/about">
-      <a>To about page</a>
-    </Link>
-    <Test />
-    <Button bg='red' color='black' mr={2}>Beep</Button>
+    {articles.slice(0, 3).map((post, i) => (
+      <p>{post.title}</p>
+    ))}
   </div>
 );
 
