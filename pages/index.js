@@ -6,7 +6,7 @@ import TopLead from '../components/TopLead'
 
 const blogTitleTop = 'ウバ活する | Ubereats配達員ブログ'
 const blogTitle = 'ウバ活する'
-const blogTitleLead = 'Ubereats配達員ブログ'
+const blogTitleLead = 'Ubereatsの配達で気づいた事をお届けします。'
 
 const Index = () => (
   <div>
@@ -33,6 +33,7 @@ const Index = () => (
         <Link variant='nav' href='https://rebassjs.org'>Link</Link>
       </>
     ))}
+    <p>フッターで home about blog</p>
     <p>© 2019 {blogTitle}</p>
   </div>
 );

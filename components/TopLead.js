@@ -5,8 +5,8 @@ export default (props) => (
   <Flex
     flexDirection="column"
     width={1}
-    mb={props.children ? 4 : 3}
-    mt={[1, 1]}
+    mb={5}
+    mt={1}
     alignItems="center"
     {...{ ...props, title: undefined }}
   >

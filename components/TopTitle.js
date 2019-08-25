@@ -11,6 +11,6 @@ export default (props) => (
     alignItems="center"
     {...{ ...props, title: undefined }}
   >
-    <Heading fontSize={[5, 6]} color='rgb(69, 66, 65)' {...props} />
+    <Heading fontSize={[5, 6, 6]} color='rgb(69, 66, 65)' {...props} />
   </Flex>
 )
