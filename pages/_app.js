@@ -1,10 +1,18 @@
 import React from 'react'
-import App from 'next/app'
+import App, { Container } from 'next/app'
+import { ThemeProvider } from 'styled-components'
+import preset from '@rebass/preset'
 
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
-    return <Component {...pageProps} />
+    return (
+      <Container>
+        <ThemeProvider theme={preset}>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </Container>
+      )
   }
 }
 
