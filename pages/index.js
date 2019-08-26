@@ -19,7 +19,7 @@ const Index = () => (
     <TopPageArticles />
     <p>more</p>
     <Link variant='nav' href='https://rebassjs.org'>Link</Link>
-    <p>フッターで home about blog</p>
+    <p>フッターで home blog about</p>
     <p>© 2019 {blogTitle}</p>
   </div>
 );

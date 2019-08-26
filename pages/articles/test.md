@@ -6,7 +6,8 @@ export const meta = {
   title: "Why I Write CSS in JavaScript",
   summary:
     "For three years, I have styled my web apps without any `.css` files. Instead, I have written all the CSS in JavaScript. Let me explain.",
-  image: "/static/images/css-in-js.png"
+  image: "/static/images/css-in-js.png",
+  address: "test"
 };
 
 export default ({ children }) => <ShowArticle meta={meta}>{children}</ShowArticle>;

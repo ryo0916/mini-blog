@@ -6,7 +6,8 @@ export const meta = {
   title: "Why I Write TAKO",
   summary:
     "tako",
-  image: "/static/images/css-in-js.png"
+  image: "/static/images/css-in-js.png",
+  address: "tako"
 };
 
 export default ({ children }) => <ShowArticle meta={meta}>{children}</ShowArticle>;
