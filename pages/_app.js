@@ -3,13 +3,17 @@ import App, { Container } from 'next/app'
 import { ThemeProvider, createGlobalStyle } from 'styled-components'
 import preset from '@rebass/preset'
 import reset from 'styled-reset'
+import Footer from '../components/Footer'
+
+const copyright = '© 2019 ウバ活する by @ryosuber';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
 
-  body {
+  html, body {
     background-color: rgb(246, 247, 248);
     margin: 0;
+    height: 100%;
   }
 
   h1,h2,h3,h4,h5 {
@@ -26,6 +30,7 @@ class MyApp extends App {
           <>
             <GlobalStyle />
             <Component {...pageProps} />
+            <Footer copyright={copyright} />
           </>
         </ThemeProvider>
       </Container>

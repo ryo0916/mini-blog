@@ -3,9 +3,9 @@ import ShowArticle from "../../components/ShowArticle";
 export const meta = {
   published: true,
   publishedAt: "2019-02-19",
-  title: "Why I Write TAKO",
+  title: "Ubereatsの配達員に登録してみた",
   summary:
-    "tako",
+    "どうせ時間もあるんだし、お金が無いなら稼ぎの当てにUbereatsの配達員をやってみようと思い始めた。",
   image: "/static/images/css-in-js.png",
   address: "tako"
 };

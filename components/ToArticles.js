@@ -8,10 +8,10 @@ export default () => (
       <Text 
         color="#dc0b0b"
         sx={{
-          borderBottom: 'none',
+          borderBottom: 'solid 1px rgb(246, 247, 248)',
           ':hover': {
             cursor: 'pointer',
-            borderBottom: 'solid 1px red',
+            borderBottom: 'solid 1px #dc0b0b',
           }
         }}
       >
