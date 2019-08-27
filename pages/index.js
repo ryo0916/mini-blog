@@ -1,16 +1,24 @@
-import Link from 'next/link';
-import Test from '../static/articles/test.md'
-import { Button } from 'rebass'
+import Head from 'next/head'
+import TopTitle from '../components/Toptitle'
+import TopLead from '../components/TopLead'
+import TopPageArticles from '../components/TopPageArticles'
+import ToArticles from '../components/ToArticles'
 
+
+const blogTitleTop = 'ウバ活する | Ubereats配達員ブログ'
+const blogTitle = 'ウバ活する'
+const blogTitleLead = 'Ubereatsの配達で気づいた事をお届けします。'
 
 const Index = () => (
   <div>
-    <p>Hello Next.js</p>
-    <Link href="/about">
-      <a>To about page</a>
-    </Link>
-    <Test />
-    <Button bg='red' color='black' mr={2}>Beep</Button>
+    <Head>
+      <title>{blogTitleTop}</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
+    <TopTitle>{blogTitle}</TopTitle>
+    <TopLead>{blogTitleLead}</TopLead>
+    <TopPageArticles />
+    <ToArticles />
   </div>
 );
 
