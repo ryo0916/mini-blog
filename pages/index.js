@@ -5,7 +5,7 @@ import TopPageArticles from '../components/TopPageArticles'
 import ToArticles from '../components/ToArticles'
 
 
-const blogTitleTop = 'ウバ活する | Ubereats配達員ブログ'
+const blogTitleTop = 'ウバ活する | Top'
 const blogTitle = 'ウバ活する'
 const blogTitleLead = 'Ubereatsの配達で気づいた事をお届けします。'
 
