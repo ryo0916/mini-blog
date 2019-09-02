@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head'
-import TopTitle from '../components/Toptitle'
+import TopTitle from '../components/TopTitle'
 import TopLead from '../components/TopLead'
-import { Flex, Text, Box, Card } from 'rebass'
+import { Flex, Text, Box } from 'rebass'
 import { ChevronsRight } from 'react-feather'
 
 const blogTitleTop = 'ウバ活する | About'
