@@ -1,6 +1,8 @@
 import React from 'react'
 import App, { Container } from 'next/app'
 import { ThemeProvider, createGlobalStyle } from 'styled-components'
+import { MDXProvider } from '@mdx-js/react'
+import markdownStyle from '../components/MarkdownStyle'
 import preset from '@rebass/preset'
 import reset from 'styled-reset'
 import Footer from '../components/Footer'
@@ -27,11 +29,13 @@ class MyApp extends App {
     return (
       <Container>
         <ThemeProvider theme={preset}>
-          <>
-            <GlobalStyle />
-            <Component {...pageProps} />
-            <Footer copyright={copyright} />
-          </>
+          <MDXProvider components={markdownStyle}>
+            <>
+              <GlobalStyle />
+              <Component {...pageProps} />
+              <Footer copyright={copyright} />
+            </>
+          </MDXProvider>          
         </ThemeProvider>
       </Container>
       )
