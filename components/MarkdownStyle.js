@@ -12,7 +12,7 @@ const BaseHeading = (props) => (
 );
 
 const Paragraph = styled(Box)`
-  max-width: 35em;
+  max-width: 38em;
   width: 100%;
   position: relative;
   z-index: 1;

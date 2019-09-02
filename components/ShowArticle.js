@@ -16,9 +16,9 @@ function ShowArticle({ path, meta, children }) {
       </Head>
       <TopTitle>{blogTitle}</TopTitle>
       <TopLead>{blogTitleLead}</TopLead>
-      <Card width={[456, 580]} mx="auto"
+      <Card width={[456, 640]} mx="auto"
       >
-        <Heading fontSize={[4, 5]} my={2}>
+        <Heading fontSize={[4, 5]} my={2} lineHeight={1.25}>
           {meta.title}
         </Heading>
         <Text mt={3} mb={4}>{meta.publishedAt}</Text>
