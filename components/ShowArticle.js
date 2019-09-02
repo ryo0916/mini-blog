@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import TopTitle from '../components/Toptitle'
+import TopTitle from '../components/TopTitle'
 import TopLead from '../components/TopLead'
 import { Card, Heading, Text } from 'rebass'
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
-import TopTitle from '../../components/Toptitle'
+import TopTitle from '../../components/TopTitle'
 import TopLead from '../../components/TopLead'
 import AllArticles from '../../components/AllArticles'
 

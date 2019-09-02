@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import TopTitle from '../components/Toptitle'
+import TopTitle from '../components/TopTitle'
 import TopLead from '../components/TopLead'
 import TopPageArticles from '../components/TopPageArticles'
 import ToArticles from '../components/ToArticles'
