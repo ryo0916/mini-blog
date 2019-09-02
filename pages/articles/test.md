@@ -1,7 +1,7 @@
 import ShowArticle from "../../components/ShowArticle";
 
 export const meta = {
-  published: true,
+  published: false,
   publishedAt: "2019-02-18",
   title: "ウバッグの中身",
   summary:
@@ -15,4 +15,4 @@ export default ({ children }) => <ShowArticle meta={meta}>{children}</ShowArticl
 
 ### ウバッグの中身はどうなっている?
 
-[append-only stylesheets](https://css-tricks.com/oh-no-stylesheet-grows-grows-grows-append-stylesheet-problem/)! ✨
+[Test Google](https://google.com/)! ✨
